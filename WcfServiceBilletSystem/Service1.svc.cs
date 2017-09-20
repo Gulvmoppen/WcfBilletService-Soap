@@ -5,16 +5,39 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using BilletLibrary;
 
 namespace WcfServiceBilletSystem
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
-    // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
-    public class Service1 : IService1
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Billet" in code, svc and config file together.
+    // NOTE: In order to launch WCF Test Client for testing this service, please select Billet.svc or Billet.svc.cs at the Solution Explorer and start debugging.
+    public class Billet : IBillet
     {
-        public string GetData(int value)
+        public int Bilpris()
         {
-            return string.Format("You entered: {0}", value);
+            var billet = new Bil();
+          
+            return billet.Pris();
+        }
+
+        public int BilprisMedBizz()
+        {
+            var billet = new Bil();
+            billet.BroBizz = true;
+            return billet.Pris();
+        }
+
+        public int BilprisØresund()
+        {
+            var billet = new BilØreSund();
+            return billet.Pris();
+        }
+
+        public int BilprisØresundBizz()
+        {
+            var billet = new BilØreSund();
+            billet.BroBizz = true;
+            return billet.Pris();
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)
@@ -28,6 +51,32 @@ namespace WcfServiceBilletSystem
                 composite.StringValue += "Suffix";
             }
             return composite;
+        }
+
+        public int MCBrobiz()
+        {
+            var billet = new MC();
+            billet.BroBizz = true;
+            return billet.Pris();
+        }
+
+        public int MCPris()
+        {
+            var billet = new MC();
+            return billet.Pris();
+        }
+
+        public int MCprisØresundBizz()
+        {
+            var billet = new MCØresund();
+            billet.BroBizz = true;
+            return billet.Pris();
+        }
+
+        public int MCØresund()
+        {
+            var billet = new MCØresund();
+            return billet.Pris();
         }
     }
 }

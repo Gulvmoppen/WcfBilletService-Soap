@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:BilletLibrary.Bil.KøreTøjType">
+            <summary>
+            type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            pris
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.#ctor">
+            <summary>
+            bil
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.BilØreSund.#ctor">
+            <summary>
+            øresund bil
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.BilØreSund.KøreTøjType">
+            <summary>
+            type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.BilØreSund.Pris">
+            <summary>
+            pris
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.KøreTøjType">
+            <summary>
+            type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            pris
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor">
+            <summary>
+            MC
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MCØresund.#ctor">
+            <summary>
+            MC Øresund
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MCØresund.KøreTøjType">
+            <summary>
+            type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MCØresund.Pris">
+            <summary>
+            pris
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
