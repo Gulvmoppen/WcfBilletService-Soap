@@ -55,6 +55,7 @@ namespace WcfServiceBilletSystem
 
         public int MCBrobiz()
         {
+            //finder pris fra brobizz
             var billet = new MC();
             billet.BroBizz = true;
             return billet.Pris();
