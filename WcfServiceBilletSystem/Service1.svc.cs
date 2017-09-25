@@ -40,18 +40,6 @@ namespace WcfServiceBilletSystem
             return billet.Pris();
         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
-        {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
-            }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
-        }
 
         public int MCBrobiz()
         {

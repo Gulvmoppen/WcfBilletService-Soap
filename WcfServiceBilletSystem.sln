@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceBilletSystem", "WcfServiceBilletSystem\WcfServiceBilletSystem.csproj", "{AE584EE2-6F6F-4278-A29F-C4C9F1D65C73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceBilletSystemTests", "WcfServiceBilletSystemTests\WcfServiceBilletSystemTests.csproj", "{FB90CD1C-785B-4420-AA17-644154B71924}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AE584EE2-6F6F-4278-A29F-C4C9F1D65C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE584EE2-6F6F-4278-A29F-C4C9F1D65C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE584EE2-6F6F-4278-A29F-C4C9F1D65C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB90CD1C-785B-4420-AA17-644154B71924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB90CD1C-785B-4420-AA17-644154B71924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB90CD1C-785B-4420-AA17-644154B71924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB90CD1C-785B-4420-AA17-644154B71924}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
